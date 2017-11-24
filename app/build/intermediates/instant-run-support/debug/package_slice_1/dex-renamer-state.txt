@@ -1,0 +1,4 @@
+#Tue Nov 21 23:39:00 PST 2017
+base.0=C\:\\Users\\Devin\\Desktop\\Sending-and-Receiving-Data-with-Bluetooth\\Bluetooth-Communication\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1
+path.0=classes.dex
+renamed.0=classes.dex

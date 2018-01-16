@@ -14,17 +14,15 @@ import java.io.OutputStream;
 import java.nio.charset.Charset;
 import java.util.UUID;
 
-/**
- * Created by User on 12/21/2016.
- */
 
 public class BluetoothConnectionService {
+    //class definitions
     private static final String TAG = "BluetoothConnectionServ";
 
     private static final String appName = "MYAPP";
 
     private static final UUID MY_UUID_INSECURE =
-            UUID.fromString("8ce255c0-200a-11e0-ac64-0800200c9a66");
+            UUID.fromString("00001101-0000-1000-8000-00805f9b34fb");
 
     private final BluetoothAdapter mBluetoothAdapter;
     Context mContext;

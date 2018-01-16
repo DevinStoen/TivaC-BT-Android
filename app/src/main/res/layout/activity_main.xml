@@ -68,13 +68,40 @@
         android:layout_below="@+id/lvNewDevices"/>
 
 
-    <com.example.user.bluetooth_communication.JoystickView
-        android:layout_width="250dp"
-        android:layout_height="250dp"
-        android:id="@+id/joystickLeft"
-        android:layout_weight="1"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"/>
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:max="100"
+        android:progress="50"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="340dp"
+        android:thumb="@drawable/joystickball"
+        android:layout_alignParentLeft="true"
+        android:progressDrawable="@android:color/holo_blue_bright"
+        android:layout_width="210dp"
+        android:rotation="90"
+
+        />
+
+    <SeekBar
+        android:id="@+id/seekBarVert"
+        android:max="100"
+        android:progress="50"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="340dp"
+        android:thumb="@drawable/joystickball"
+        android:layout_alignParentRight="true"
+        android:progressDrawable="@android:color/holo_blue_bright"
+        android:layout_width="210dp"
+        android:rotation="90"
+        />
+
+    <!--<com.example.user.bluetooth_communication.JoystickView-->
+        <!--android:layout_width="250dp"-->
+        <!--android:layout_height="250dp"-->
+        <!--android:id="@+id/joystickLeft"-->
+        <!--android:layout_weight="1"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_centerHorizontal="true"/>-->
 
 
 
